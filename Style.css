@@ -1,0 +1,431 @@
+@charset "UTF-8";
+
+
+body{
+    
+    
+    overflow-x: hidden;
+    margin: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top{
+    animation: top 20s ease alternate infinite;
+    margin: 0px;
+    background-color: #062644 ;
+    background-image: linear-gradient(to left ,#23a6d5,#23d5ab ,#062644) ;
+    background-size: 300% 300%;
+}
+
+
+
+
+@keyframes  span{
+    to {
+        color: white;
+    }
+    from{
+        color: yellow;
+    }
+}
+
+h1>a{
+    margin-top: 50px;
+    color: black;
+    text-decoration: none;
+    
+}
+div{text-align: right;
+    padding: 20px;
+    
+    
+}
+div>span{
+    
+    left: 0px;
+    font-size: 35px;
+}
+#top>a{
+    
+    margin-right: 5px;
+   
+}
+ 
+#port{
+    background-color: rgba(255, 255, 255, 0);
+    min-width: 1000px;
+    margin-right: 245px;
+    padding: 0px;
+    
+    position: relative;
+    right: 900px;
+}
+
+    
+
+
+#tr {
+    animation: span 5s ease alternate infinite;
+    color: #2fb9f9 ;
+}
+#fr{
+    color:white;
+}
+
+
+header{  
+    animation: bgp 3s ease alternate 3;
+    color: white;
+    background-position: 600px;
+    background-repeat: no-repeat;
+    background-image: url(imagens/deydebg.png);
+    background-color: #2fb9f9;
+    height: 800px;
+    width: auto;
+    padding: 40px;
+    text-align: right;
+   
+   
+
+   
+    
+}
+#divao{
+    position: relative;
+    top: 100px;
+    left: 25px;
+}
+
+h1{  
+    
+    margin-left: 10vw;
+    margin-right: 15vw;
+    
+    margin-top: 150px;
+    text-align: left;
+    font-size: 30pt;
+}
+h1>a{
+    margin: auto;
+    color:#062644;
+}
+#qm{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+
+    color:#2fb9f9 ;
+}
+
+#que{
+    cursor: none;
+    margin-top: 130px;
+}
+
+h2{
+    font-size: 15pt;
+    margin-left: 10vw;
+    margin-right: 20vw;
+    text-align: left;
+}
+#nome{
+    margin: auto;
+
+}
+#prof{
+    margin: auto;
+
+}
+#apr{
+    padding-left: 0px;
+    text-align: left;
+    max-width: 400px;
+    margin: 0px;
+}
+
+div>a{
+    
+    color: white;
+    margin-left:10px;
+    text-decoration: none;
+    font-size: 12pt;
+}
+section{
+    text-align: center;
+    height: 900px;
+    
+}
+section > h2 { 
+    margin-bottom: 50px;
+    margin-right: 205px;
+    font-size: 15pt;
+    text-align: center;
+}
+div>a:hover{
+    animation: lik 2s ease-in-out alternate infinite;
+    color: rgb(255, 255, 131);
+}
+
+
+
+
+section > h1 { 
+    animation: lik 9s ease-in-out alternate 4 forwards;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25pt;
+    text-align: center;
+}
+
+#serviços{
+
+    background-color: #206e95;
+    height: 1000px;
+}
+
+#serviços>div{
+
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    background-color: #32a7e1;
+}
+#serviços>div>h1{
+    color: rgb(237, 237, 237);
+    margin: 0px;
+}
+#serviços>h1{
+    color: white ;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+#serviços>div>h1,span{
+    font-size: 20px;
+    text-align: center;
+}
+#serviços>.ser>h1>span{
+    color: rgb(255, 255, 143);
+}
+#serviços>.ser>p{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+}
+
+
+.ser{
+    padding-bottom: 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.364);
+    margin-top: 40px;
+}
+.ser>img{
+    padding-bottom: 10px;
+}
+
+#especialidades{
+    height: 1000px;
+    background-color: #062644 ;
+}
+picture > img{
+
+    margin-top: 10px;
+    display: inline-block; 
+}
+#ftt{
+    animation: rot 1s ease-out alternate 6;
+    transform: rotate(0deg);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.268);
+}
+
+   
+
+
+#about{
+    top: -35px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+p{  
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 20px;
+    min-width: 150px;
+    max-width: 450px;
+    
+}
+#ps1{
+    
+    margin-top: -17px;
+}
+section>p{
+    
+    display: inline-block;
+   
+    
+
+}
+.in{
+    font-size: 14pt;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    width: 280px;
+    height: 200px;
+    margin-left: -30px;
+    margin-right: 0px;
+    
+}
+#gr{
+    margin-top: -70px;
+    top: 170px;
+    display: inline;
+    position: relative;
+    
+}
+#especialidades>h1{
+    margin-bottom: 0px;
+    
+    color: white;
+    padding-top: 120px;
+    margin-top: 0px;
+}
+#especialidades>div>p{
+    text-align: left;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div>picture>img{
+    margin-right: 0px;
+}
+
+#Contato{
+
+    background-color: #2fb9f9 ;
+
+}
+#ctt{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-height: auto;
+    max-height: auto;
+    border-radius: 25px;
+    background-color: white;
+    padding: 0px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.398);
+}
+#ctt>h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-top: 100px;
+    font-size: 25pt;
+    color: #2fb9f9;
+
+}
+.bloco1,.bloco2,.bloco3,.bloco4{
+    padding: 0px;
+}
+.bloco1{
+    margin-top: 0px;
+    display: inline-block;
+    width: 225px;
+    height: 140px;
+    
+    text-align: center;
+}
+.bloco2{
+    display: inline-block;
+    width: 225px;
+    height: 200px;
+    text-align: center;
+}
+.bloco3{
+    margin-top: 0px;
+    display: inline-block;
+    width: 225px;
+    height: 140px;
+    
+    text-align: center;
+    
+}
+.bloco3>a{
+    font-size: 16px;
+    color: black;
+}
+.bloco4{
+    margin-top: 0px;
+    display: inline-block;
+    width: 225px;
+    height: 140px;
+    
+    text-align: center;
+}
+.bloco4>a{
+    color: black;
+}
+.bloco4,.bloco2{
+    padding-left: 10px;
+}
+.bloco1,.bloco3{
+    padding-right: 10px;
+}
+
+
+
+footer{
+    text-align: right;
+    color: white;
+    padding: 25px;
+    background-color: rgb(24, 24, 24);
+    height: 150px;
+}
+footer>span{
+    color: chartreuse;
+}
+footer>div{
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+footer>div>a{
+    font-size: 10px;
+
+}
+
+
+@media screen and (max-width:1024px) {
+    #fr{
+        color: rgba(255, 255, 255, 0);
+       
+    }
+    #tr{
+        animation: none;
+        color: rgba(255, 255, 255, 0);
+       
+    }
+    header{
+        background-size: 2px 2px;
+    }
+    
+}
